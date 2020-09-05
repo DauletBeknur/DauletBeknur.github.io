@@ -1,0 +1,56 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.main {
+    display: block;
+    
+}
+
+
+#popup-window {
+    position: fixed;
+    display: flex;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 90%;
+    height: 80%;
+    background: #ddd;
+    border: 1px solid #aaa;
+    box-shadow: 0  3px 15px 5px rgba(50,50,50,0.15)
+  }
+  .popup-trigger {
+    display: block;
+    width: 100px;
+    text-align: center;
+    background: #aaa;
+    margin: 10px auto;
+    padding: 20px;
+    cursor: pointer;
+  }
+  .x-close {
+    font-size: 50px;
+    line-height: 1;
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+  .popup {
+      margin-top: 100px;
+      margin-left: 100px;
+      width: 80%;
+  }
